@@ -1,10 +1,15 @@
 body {
     background-color: #333;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
+    justify-content: center;
+    align-items: center;
     background-color: #222;
+    padding: 15px;
     border-radius: 5mm;
-    box-shadow: 0 0 10px rgba(34, 34, 34, 0.5); /* #222 */
+    box-shadow: 0 0 5px rgba(34, 34, 34, 0.5); /* #222 */
 }
